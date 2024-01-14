@@ -14,6 +14,10 @@ class _MyWidgetState extends State<MyWidget> {
       appBar: AppBar(
         title: const Text("Setting"),
       ),
+      body:_buildContainer()
     );
+  }
+  _buildContainer(){
+    return Container(alignment: Alignment.center,);
   }
 }
